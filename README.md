@@ -8,3 +8,7 @@ This is my personal portfolio website for the GIT 215 Code-Along. It has four pa
 - About (`about.html`)
 - Projects (`projects.html`)
 - Resume (`resume.html`)
+
+## Published Website
+
+https://msaidzod.github.io/Portfolio/
