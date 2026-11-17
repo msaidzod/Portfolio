@@ -1,0 +1,53 @@
+/* Author: Muhammadrafi Saidzoda */
+
+/* Earth & Clay Color Palette
+   Espresso Brown: #492718
+   Dark Mahogany: #582119
+   Rosewood: #7A4E47
+   Burnt Brick: #7B403A
+   Warm Ivory: #DDDDCF
+   Sand Beige: #C7B89C
+*/
+
+/* Mobile-first base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #DDDDCF;
+    color: #492718;
+}
+
+header,
+main,
+footer {
+    padding: 1rem;
+}
+
+header,
+footer {
+    background-color: #492718;
+    color: #DDDDCF;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+    background-color: #C7B89C;
+}
+
+nav a {
+    color: #492718;
+}
+
+/* Wider screens */
+@media (min-width: 600px) {
+    nav ul {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
